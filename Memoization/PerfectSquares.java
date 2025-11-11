@@ -13,8 +13,8 @@ public class PerfectSquares {
     if (dp[n] != -1) return dp[n];
 
     int min = n;
-    for (int i=1; i<=n/2; i++) {
-      int count = helper(i, dp) + helper(n - i, dp);
+    for (int i=1; i*i<=n; i++) {
+      int count = helper(i*i, dp) + helper(n - i*i, dp);
       min = Math.min(min, count);
     }
 
