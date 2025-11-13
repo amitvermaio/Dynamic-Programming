@@ -22,7 +22,7 @@ public class PerfectSquares {
     return dp[n];
   }
   
-  static static int numSquares(int n) {
+  static int numSquares(int n) {
     int[] dp = new int[n + 1];
     Arrays.fill(dp, -1);
     return helper(n, dp);
