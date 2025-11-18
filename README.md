@@ -1,10 +1,10 @@
 # ✅ Top 50 Dynamic Programming (DP) Problems — FAANG Checklist
 
 ## 🔹 DP on Arrays
-- [ ] 1. Climbing Stairs  
-- [ ] 2. House Robber  
-- [ ] 3. House Robber II  
-- [ ] 4. Maximum Subarray (Kadane’s)  
+- [x] 1. Climbing Stairs  
+- [x] 2. House Robber  
+- [~] 3. House Robber II  
+- [x] 4. Maximum Subarray (Kadane’s)  
 - [ ] 5. Jump Game  
 - [ ] 6. Jump Game II  
 - [ ] 7. Partition Equal Subset Sum  
