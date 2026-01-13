@@ -12,6 +12,14 @@ public class MinimumCostForTickets {
 class Solution {
   static Integer[] dp;
 
+  static int min(int a, int b) {
+    return (a < b) ? a : b;
+  }
+
+  static int max(int a, int b) {
+    return (a > b) ? a : b;
+  }
+
   static int topDown(int curr, int[] days, int[] costs, int n) {
     if (curr >= n)
       return 0;
